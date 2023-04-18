@@ -3,7 +3,7 @@ const path = require('path');
 const morgan = require('morgan');
 const postBank = require('./postBank');
 const app = express();
-const PORT = 1337;
+const { PORT = 1337 } = process.env;
 
 
 
